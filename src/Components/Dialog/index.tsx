@@ -12,7 +12,7 @@ export default function Dialog({ children, onHide, visible, header, subtitle } :
 
     return (
         <div className="fixed inset-0 bg-black bg-opacity-50 flex justify-center items-center z-50">
-            <div className="bg-gray-800 animate-jump rounded-lg p-10 flex flex-col gap-8 w-full max-w-xl max-[412px]:w-[22rem]">
+            <div className="bg-gray-800 animate-jump rounded-lg p-10 flex flex-col gap-8 w-full max-w-xl max-[480px]:w-[22rem]">
                 <div className="flex  justify-between items-start mb-4">
                     <div className="flex flex-col justify-start items-start gap-1">
                     <h1 className="font-semibold text-gray-50 text-xl">{header}</h1>

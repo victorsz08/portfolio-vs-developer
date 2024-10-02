@@ -7,10 +7,10 @@ import { RiCopyrightFill } from "react-icons/ri";
 export default function Footer(){
 
     return (
-        <footer className="w-screen bg-gray-900 flex justify-around items-center h-44 max-[412px]:h-32 max-[412px]:px-4 max-[412px]:gap-3">
+        <footer className="w-screen bg-gray-900 flex justify-around items-center h-44 max-[480px]:h-32 max-[480px]:px-4 max-[480px]:gap-3">
             <div className="flex justify-start gap-1 items-center">
             <RiCopyrightFill className="text-gray-500 w-3 h-3 " />
-                <p className="text-gray-500 font-normal max-[412px]:text-xs">Copyright 2024 - Victor S Developer - Portfólio</p>
+                <p className="text-gray-500 font-normal max-[480px]:text-xs">Copyright 2024 - Victor S Developer - Portfólio</p>
             </div>
             <div className="flex items-center justify-start gap-4">
             <a

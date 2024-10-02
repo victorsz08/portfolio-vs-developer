@@ -32,7 +32,7 @@ export default function HardSkill() {
     }, []);
 
     return (
-        <section ref={sectionRef} className="flex h-screen justify-center items-center px-80 max-[864px]:px-10 max-[412px]:px-4">
+        <section ref={sectionRef} className="flex h-screen justify-center items-center px-80 max-[864px]:px-10 max-[480px]:px-4">
             <div className="flex flex-col gap-12 bg-gray-900 p-10 rounded-lg">
                 <div className={`flex flex-col gap-1 justify-center items-center ${isVisible ? 'animate-fade-up animate-delay-100' : ''}`}>
                     <h3 className="text-purple-600 font-medium text-base">Hard Skills</h3>

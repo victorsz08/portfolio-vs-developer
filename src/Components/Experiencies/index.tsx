@@ -22,7 +22,7 @@ export default function Experiencies() {
         "Sistema de Gestão de contratos: O problema é que os operadores não tinha como salvar e fazer a gestão dos contratos acompanhar suas instalações para baterem suas metas, dessa forma eu trouxe a solução de disponibilizar um sistema de gestão dos contratos e metas para que os operadores terem uma visão de suas metas, melhorando os resultados de todas a operação. É usado por cerca de 64 operadores.",
       technologies: "NextJs / TailwindCSS / PostgreSQL / Primereact / NextAuth",
       age: "Set 2024 - Set 2024",
-      link: "https://notetools.online"
+      link: "https://demo-ativo-notetools.vercel.app/operacao"
     },
     {
       title: "AeC - Claro Vendas Receptivo",
@@ -31,7 +31,7 @@ export default function Experiencies() {
         "Sistema de Gestão de contratos, o sistema por mais que seja semelhante ao anterior, esse os contratos não são armazenados em um banco de dados em nuvem, nesse sistema, fui instruído para que os dados sejam salvos localmente, dessa forma, fui obrigado a utilizar o IndexedDB para salvar os contratos com modificações de metas e diferentes tipos de contratos. Utilizado por cerca de 140 operadores.",
       technologies: "NextJs / TailwindCSS / PostgreSQL / Primereact / NextAuth",
       age: "Ago 2024 - Set 2024",
-      link: "https://notetools.online"
+      link: "https://demo-vendas-notetools.vercel.app/operacao"
     },
     {
       title: "Cinestream - Site de Filmes",
@@ -61,7 +61,7 @@ export default function Experiencies() {
   return (
     <section
       id="experiencies"
-      className="py-8 flex justify-start gap-8 px-24 min-h-screen max-[864px]:px-10 max-[412px]:px-4 max-[412px]:gap-4"
+      className="py-8 flex justify-start gap-8 px-24 min-h-screen max-[864px]:px-10 max-[480px]:px-4 max-[480px]:gap-4"
     >
       {/* Modal condicional com base no card clicado */}
       {selectedCard && (
@@ -104,7 +104,7 @@ export default function Experiencies() {
                 <button
                   onClick={() => openModal(exp)}
                   className="flex justify-center text-gray-50 gap-1 items-center 
-                  bg-purple-600 px-5 py-3 rounded-md hover:bg-purple-800 duration-200 max-[412px]:px-3 max-[412px]:text-xs "
+                  bg-purple-600 px-5 py-3 rounded-md hover:bg-purple-800 duration-200 max-[480px]:px-3 max-[480px]:text-xs "
                 >
                   Mais Informações
                 </button>

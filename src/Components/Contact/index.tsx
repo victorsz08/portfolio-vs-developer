@@ -71,14 +71,14 @@ export default function Contact() {
 
     return (
         <section id="contact" className="min-h-screen z-0 flex justify-center p-16 items-center w-screen">
-            <div className=" flex flex-col w-full justify-center items-center gap-6 p-8 animate-fade-right animate-duration-[800ms] max-[412px]:text-center">
+            <div className=" flex flex-col w-full justify-center items-center gap-6 p-8 animate-fade-right animate-duration-[800ms] max-[480px]:text-center">
                 {!success && <div className="flex flex-col gap-2 justify-center items-center">
                     <h4 className="text-purple-600 font-normal text-sm">Contato</h4>
-                    <h1 className="text-3xl font-semibold text-gray-50 max-[412px]:text-xl">Me envie uma mensagem</h1>
+                    <h1 className="text-3xl font-semibold text-gray-50 max-[480px]:text-xl">Me envie uma mensagem</h1>
                 </div>}
                 {!success ? 
                 <form onSubmit={handleSubmit} 
-                    className="flex duration-300 bg-gray-900 rounded-lg p-6 flex-col justify-start gap-4 w-[35rem]  max-[412px]:max-w-[20rem] max-[412px]:text-start">
+                    className="flex duration-300 bg-gray-900 rounded-lg p-6 flex-col justify-start gap-4 w-[35rem]  max-[480px]:max-w-[20rem] max-[480px]:text-start">
                 <div className="flex flex-col gap-1">
                     <label htmlFor="name" className="text-gray-400 text-sm font-normal">Nome</label>
                     <input
@@ -131,8 +131,8 @@ export default function Contact() {
             :
             <div className="h-full animate-fade-right animate-duration-[800ms] w-[35rem] p-8 flex justify-center items-center">
                 <div className="flex flex-col gap-3 justify-center items-center">
-                <BsFillSendCheckFill className="w-40 h-40 text-green-600 max-[412px]:w-32 max-[412px]:h-32"/>
-                <h1 className="text-gray-100 font-semibold text-2xl max-[412px]:text-xl">Obrigado pela sua mensagem!</h1>
+                <BsFillSendCheckFill className="w-40 h-40 text-green-600 max-[480px]:w-32 max-[480px]:h-32"/>
+                <h1 className="text-gray-100 font-semibold text-2xl max-[480px]:text-xl">Obrigado pela sua mensagem!</h1>
                     <button 
                         onClick={() => setSuccess(false)}
                         className="px-5 py-3 my-3 rounded-lg bg-purple-600 text-gray-50 font-medium text-base hover:bg-purple-900 duration-200">
